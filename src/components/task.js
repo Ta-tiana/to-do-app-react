@@ -12,7 +12,7 @@ const Task = ({task,...props}) => {
     )
   };
 
-  const className = 'task' + ' ' +(task.done ? 'task-done': '');
+  const className = `task ${task.done ? 'task-done': ''}`;
 
   return (
     <div className={className}>
